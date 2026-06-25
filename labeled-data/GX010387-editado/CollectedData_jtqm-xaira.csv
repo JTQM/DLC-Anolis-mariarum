@@ -1,0 +1,5 @@
+scorer,,,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira,jtqm-xaira
+bodyparts,,,nose,nose,center_of_shoulder,center_of_shoulder,shoulder,shoulder,elbow,elbow,wrist,wrist,third_metacarpophalangeal_joint,third_metacarpophalangeal_joint,tip_of_third_forelimb_phalanx,tip_of_third_forelimb_phalanx,center_of_hip,center_of_hip,hip,hip,knee,knee,ankle,ankle,fourth_metatarsophalangeal_joint,fourth_metatarsophalangeal_joint,tip_of_fourth_hindlimb_phalanx,tip_of_fourth_hindlimb_phalanx
+coords,,,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y
+labeled-data,GX010387-editado,img0192.png,729.821508402141,937.5076834216392,793.3511487300138,944.0180841643645,794.2501067622829,955.7045385838621,811.7797883915295,953.4571435031895,799.6438549558973,965.1435979226873,,,,,,,,,,,,,,,,
+labeled-data,GX010387-editado,img1728.png,560.8105021722708,949.4150147045287,,,618.119076729423,951.2129307690668,630.4797496731226,942.6728294625108,,,,,,,,,,,,,,,,,,

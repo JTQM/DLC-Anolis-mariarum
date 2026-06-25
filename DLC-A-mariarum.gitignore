@@ -1,0 +1,25 @@
+# Videos - demasiado pesados para Git
+videos/
+*.mp4
+*.avi
+*.mov
+
+# Modelos entrenados de TensorFlow (pesados)
+*.pb
+*.index
+*.data-*
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+env/
+.conda/

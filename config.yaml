@@ -1,0 +1,173 @@
+# Project definitions (do not edit)
+Task: red-seguimiento-a-mariarum
+scorer: jtqm-xaira
+date: Nov17
+multianimalproject: false
+identity:
+
+
+# Project path (change when moving around)
+project_path: C:\Users\USUARIO\Documents\grupo biofisica\redes 
+  neuronales\red-seguimiento-a-mariarum-jtqm-xaira-2025-11-17
+
+
+# Default DeepLabCut engine to use for shuffle creation (either pytorch or tensorflow)
+engine: pytorch
+
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/17-11-2025/GX010404-editado.mp4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/17-11-2025/GX010387-editado.mp4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/17-11-2025/GX010405-editado.mp4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/17-11-2025/GX010337-editado.mp4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/17-11-2025/GX010336-editado.mp4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/17-11-2025/GX010389-editado.mp4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/16-11-2025/GX010368-editado.mp4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/16-11-2025/GX010319-editado.mp4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/16-11-2025/GX010385-editado.mp4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/PGC/GX010432-editado.MP4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/PGC/GX010415-editado.MP4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/PAB/GX010429-editado.MP4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/PAB/GX010412-editado.MP4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/PAB/GX010360-editado.MP4:
+    crop: 0, 1080, 0, 1920
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/MGC/GX010436-editado.MP4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/MGC/GX010419-editado.MP4:
+    crop: 0, 1920, 0, 1080
+  /home/jtqm/Videos/videos_red_seguimiento_Anolis/editados/24-11-2025/MGC/GX010366-editado.MP4:
+    crop: 0, 1920, 0, 1080
+  ? /content/drive/MyDrive/udea/grupo investigacion biofisica/redes 
+    neuronales/red-seguimiento-a-mariarum-jtqm-xaira-2025-11-17/videos/GX010405-sin-distor-correcto.mp4
+  : crop: 0, 1920, 0, 1080
+  ? /content/drive/MyDrive/udea/grupo investigacion biofisica/redes 
+    neuronales/red-seguimiento-a-mariarum-jtqm-xaira-2025-11-17/videos/GX010337-sin-distor-correcto.mp4
+  : crop: 0, 1920, 0, 1080
+  ? /content/drive/MyDrive/udea/grupo investigacion biofisica/redes 
+    neuronales/red-seguimiento-a-mariarum-jtqm-xaira-2025-11-17/videos/GX010389-sin-distor-correcto.mp4
+  : crop: 0, 1920, 0, 1080
+bodyparts:
+- nose
+- center_of_shoulder
+- shoulder
+- elbow
+- wrist
+- third_metacarpophalangeal_joint
+- tip_of_third_forelimb_phalanx
+- center_of_hip
+- hip
+- knee
+- ankle
+- fourth_metatarsophalangeal_joint
+- tip_of_fourth_hindlimb_phalanx
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+
+# Plotting configuration
+skeleton:
+- - nose
+  - center_of_shoulder
+- - center_of_shoulder
+  - shoulder
+- - shoulder
+  - elbow
+- - elbow
+  - wrist
+- - wrist
+  - third_metacarpophalangeal_joint
+- - third_metacarpophalangeal_joint
+  - tip_of_third_forelimb_phalanx
+- - center_of_shoulder
+  - center_of_hip
+- - center_of_hip
+  - hip
+- - hip
+  - knee
+- - knee
+  - ankle
+- - ankle
+  - fourth_metatarsophalangeal_joint
+- - fourth_metatarsophalangeal_joint
+  - tip_of_fourth_hindlimb_phalanx
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 1
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+detector_snapshotindex: -1
+batch_size: 8
+detector_batch_size: 1
+
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+
+
+# Conversion tables to fine-tune SuperAnimal weights
+SuperAnimalConversionTables:
