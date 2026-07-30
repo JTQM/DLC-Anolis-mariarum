@@ -61,6 +61,8 @@ video_sets:
   : crop: 0, 1920, 0, 1080
   C:\Users\USUARIO\Documents\DLC-Anolis-mariarum\videos\GX010469-editado.mp4:
     crop: 0, 1920, 0, 1080
+  C:\Users\USUARIO\Documents\DLC-Anolis-mariarum\videos\GX010451-editado.mp4:
+    crop: 0, 1920, 0, 1080
 bodyparts:
 - nose
 - center_of_shoulder
@@ -75,6 +77,9 @@ bodyparts:
 - ankle
 - fourth_metatarsophalangeal_joint
 - tip_of_fourth_hindlimb_phalanx
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
 
 # Fraction of video to start/stop when extracting frames for labeling/refinement
 
