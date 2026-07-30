@@ -4,6 +4,11 @@ videos/
 *.avi
 *.mov
 
+# ── IMÁGENES (van en Google Drive, no en Git) ───
+labeled-data/**/*.png
+labeled-data/**/*.jpg
+labeled-data/**/*.jpeg
+
 # Modelos entrenados de TensorFlow (pesados)
 *.pb
 *.index

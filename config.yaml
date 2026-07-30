@@ -7,8 +7,7 @@ identity:
 
 
 # Project path (change when moving around)
-project_path: C:\Users\USUARIO\Documents\grupo biofisica\redes 
-  neuronales\red-seguimiento-a-mariarum-jtqm-xaira-2025-11-17
+project_path: C:\Users\USUARIO\Documents\DLC-Anolis-mariarum
 
 
 # Default DeepLabCut engine to use for shuffle creation (either pytorch or tensorflow)
@@ -60,6 +59,8 @@ video_sets:
   ? /content/drive/MyDrive/udea/grupo investigacion biofisica/redes 
     neuronales/red-seguimiento-a-mariarum-jtqm-xaira-2025-11-17/videos/GX010389-sin-distor-correcto.mp4
   : crop: 0, 1920, 0, 1080
+  C:\Users\USUARIO\Documents\DLC-Anolis-mariarum\videos\GX010469-editado.mp4:
+    crop: 0, 1920, 0, 1080
 bodyparts:
 - nose
 - center_of_shoulder
@@ -74,6 +75,12 @@ bodyparts:
 - ankle
 - fourth_metatarsophalangeal_joint
 - tip_of_fourth_hindlimb_phalanx
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
 
 # Fraction of video to start/stop when extracting frames for labeling/refinement
 
