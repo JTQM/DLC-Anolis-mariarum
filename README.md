@@ -5,7 +5,7 @@ Proyecto colaborativo entre Joshua y Xaira.
 
 ---
 
-## Equipo
+## Equipe 
 
 | Integrante | GitHub |
 |------------|--------|
